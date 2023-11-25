@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./suDoku.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>suDoku</title>
+  </head>
+  <body class="body">
+    <h1 class="title">Sudoku</h1>
+
+    <div class="box">
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="boxIn">
+        <table>
+          <tr>
+            <td class="tds">1</td>
+            <td class="tds">2</td>
+            <td class="tds">3</td>
+          </tr>
+          <tr>
+            <td class="tds">4</td>
+            <td class="tds">5</td>
+            <td class="tds">6</td>
+          </tr>
+          <tr>
+            <td class="tds">7</td>
+            <td class="tds">8</td>
+            <td class="tds">9</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- <script>
+        for (var i = 1; i <= 9; i++) {
+          document.write('<div class="suDokuBox">');
+
+          for (var j = 1; j <= 9; j++) {
+            document.write('<div class="suDokuBoxIn">' + j + "</div>");
+
+            if (j % 3 === 0 && j !== 9) {
+              document.write("<br>");
+            }
+          }
+
+          document.write("</div>");
+
+          if (i % 3 === 0 && i !== 9) {
+            document.write("<br>");
+          }
+        }
+      </script> -->
+    </div>
+  </body>
+</html>
